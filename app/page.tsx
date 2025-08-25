@@ -1,3 +1,22 @@
+import { motion } from "framer-motion";
+import React from "react";
+
+export default function Page() {
+  return (
+    <main>
+      <h1 className="text-3xl font-bold">Vishal Sekar - Resume</h1>
+      <motion.section
+        initial={{ opacity: 0, y: 50 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.5 }}
+        viewport={{ once: true }}
+        className="p-4"
+      >
+        <p>Senior Software Tester / Quality Engineer Analyst</p>
+      </motion.section>
+    </main>
+  );
+}
 
 // --- Data ---
 const CONTACT = {
