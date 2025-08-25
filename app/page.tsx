@@ -10,8 +10,7 @@ const CONTACT = {
   phone: "+91 8939448148",
   email: "gv0207@gmail.com",
   links: {
-    github: null,
-    linkedin: null,
+    linkedin: https://www.linkedin.com/in/vishal-sekar-9b75a9219,
   },
 };
 
